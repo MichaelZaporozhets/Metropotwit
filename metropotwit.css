@@ -279,7 +279,7 @@ box-shadow: none !important;
 }
 
 .tweet-box textarea:focus, .tweet-box input[type="text"] {
-border-color: #56B4EF;
+border: none !important;
 -webkit-box-shadow: none !important;
 -moz-box-shadow: none !important;
 box-shadow: none !important;
@@ -288,9 +288,31 @@ box-shadow: none !important;
 input:focus, textarea:focus {
 outline: 0;
 color: #333;
-border-color: #56B4EF;
+border: none !important;
 -webkit-box-shadow: none !important;
 -moz-box-shadow: none !important;
 box-shadow: none !important;
+}
+
+.tweet-box textarea {
+resize: vertical;
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+input, textarea, select {
+display: inline-block;
+width: 210px;
+padding: 4px;
+margin: 0;
+outline: none;
+background-color: white;
+border: none !important;
+}
+
+.tweet-user {
+padding: 10px 12px;
+background-color: white !important;
 }
 
