@@ -372,3 +372,7 @@ border-bottom: none !important ;
 .stream-end, .stream-loading, .stream-whale-end {
 margin-bottom: 0px !important;
 }
+
+.nav {
+margin-left: 14px !important;
+}
