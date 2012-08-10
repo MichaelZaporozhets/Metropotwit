@@ -61,6 +61,12 @@ text-shadow: none !important;
 color: #333 !important;
 text-decoration: none;
 }
+
+.nav > li > a:hover {
+color: white !important;
+text-decoration: none;
+}
+
 .module ul:last-child li:last-child .list-link, .module ul:last-child li.last-item .list-link, .module .flex-module:last-child, .module .contrast-flex-module:last-child {
 -webkit-border-bottom-right-radius: 0px !important;
 -webkit-border-bottom-left-radius: 0px !important;
@@ -354,4 +360,11 @@ z-index: 2;
 -webkit-box-shadow: none !important;
 -moz-box-shadow: none !important;
 box-shadow: none !important;
+}
+
+.open {  margin: 0px !important; border: 10px solid #666;  }
+.open.stream-item {
+border-left: 10px solid #666 !important;
+border-top: none !important;
+border-bottom: none !important ;
 }
