@@ -365,8 +365,9 @@ box-shadow: none !important;
 .open.stream-item {
 margin: 0px !important; 
 border-left: 10px solid #666 !important;
-border-top: none !important;
 border-bottom: none !important ;
+margin-bottom: 10px !important;
+border-top: 1px solid #666 !important;
 }
 
 .stream-end, .stream-loading, .stream-whale-end {
