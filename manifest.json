@@ -6,7 +6,7 @@
 	"content_scripts": [
     {
       "matches": ["https://twitter.com/*"],
-	  "css": ["hide.css"],
+	  "css": ["metropotwit.css"],
       "js": ["jquery.js", "some.js"]
     }
   ], 
