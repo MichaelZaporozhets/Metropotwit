@@ -307,7 +307,7 @@ width: 210px;
 padding: 4px;
 margin: 0;
 outline: none;
-background-color: white;
+background: white !important;
 border: none !important;
 }
 
@@ -316,3 +316,42 @@ padding: 10px 12px;
 background-color: white !important;
 }
 
+
+.btn-tweet {
+float: left;
+padding: 3px 4px 5px 10px;
+font-size: 12px;
+line-height: 20px;
+color: #BBB;
+text-shadow: none !important;
+border:none!important;
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+.btn:hover, .photo-selector:not(.disabled):hover .btn, .follow-combo.open .btn-user-actions, .user-dropdown.open {
+text-decoration: none;
+background-color: #245988 !important;
+background-image: none !important;
+filter: none !important;
+border-color: #BBB;
+}
+
+.new-tweets-bar {
+position: relative;
+top: -1px;
+font-size: 13px;
+display: block;
+padding: 10px 1px;
+cursor: pointer;
+text-align: center;
+text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+font-weight: normal;
+background-color: whiteSmoke;
+border-top: 1px solid #DDD;
+z-index: 2;
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+}
