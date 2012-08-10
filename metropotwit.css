@@ -62,7 +62,7 @@ color: #333 !important;
 text-decoration: none;
 }
 
-.nav > li > a:hover {
+.nav .active a:hover {
 color: white !important;
 text-decoration: none;
 }
