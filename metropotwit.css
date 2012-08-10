@@ -362,8 +362,8 @@ z-index: 2;
 box-shadow: none !important;
 }
 
-.open {  margin: 0px !important; border: 10px solid #666;  }
 .open.stream-item {
+margin: 0px !important; 
 border-left: 10px solid #666 !important;
 border-top: none !important;
 border-bottom: none !important ;
