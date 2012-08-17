@@ -144,6 +144,11 @@ padding: 0px !important;margin-top: 0px !important;
 }
 .unfollow-text { background: FF0000 !important; }
 .sm-reply, .sm-rt, .sm-fav, .sm-image, .sm-video, .sm-audio, .sm-geo, .sm-in, .sm-lock, .sm-trash, .sm-page, .sm-embed, .sm-summary, .sm-chat, .sm-bird, .sm-top-tweet {
-height: 13px;
-background-color: ;
+height: 13px;background-color: ;
+}
+.nav.js-global-actions {
+margin-left: 14px !important;
+}
+#doc {
+margin-top: 10px;
 }
